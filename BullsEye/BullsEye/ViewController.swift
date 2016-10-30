@@ -9,17 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var targetValue: String = String(0)
+    
+    
+    @IBOutlet weak var targetValueLabel: UILabel!
+  
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        targetValueLabel.text = String(1 + arc4random_uniform(100))
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 
 }
 
