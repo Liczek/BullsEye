@@ -13,6 +13,8 @@
 		C83C32EB1DC549280051F2E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83C32EA1DC549280051F2E5 /* Assets.xcassets */; };
 		C83C32EE1DC549280051F2E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83C32EC1DC549280051F2E5 /* LaunchScreen.storyboard */; };
 		C83C32F61DC54A080051F2E5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C83C32F51DC54A080051F2E5 /* Default-568h@2x.png */; };
+		C84EA4351DC7DDAE001126B0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84EA4341DC7DDAE001126B0 /* AboutViewController.swift */; };
+		C84EA52F1DC7E0DB001126B0 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = C84EA52E1DC7E0DB001126B0 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C83C32ED1DC549280051F2E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C83C32EF1DC549280051F2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C83C32F51DC54A080051F2E5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C84EA4341DC7DDAE001126B0 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C84EA52E1DC7E0DB001126B0 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		C83C32E21DC549280051F2E5 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				C84EA52E1DC7E0DB001126B0 /* BullsEye.html */,
 				C83C32F51DC54A080051F2E5 /* Default-568h@2x.png */,
 				C83C32E31DC549280051F2E5 /* AppDelegate.swift */,
 				C83C32E51DC549280051F2E5 /* ViewController.swift */,
 				C83C32E71DC549280051F2E5 /* Main.storyboard */,
+				C84EA4341DC7DDAE001126B0 /* AboutViewController.swift */,
 				C83C32EA1DC549280051F2E5 /* Assets.xcassets */,
 				C83C32EC1DC549280051F2E5 /* LaunchScreen.storyboard */,
 				C83C32EF1DC549280051F2E5 /* Info.plist */,
@@ -130,6 +136,7 @@
 				C83C32F61DC54A080051F2E5 /* Default-568h@2x.png in Resources */,
 				C83C32EB1DC549280051F2E5 /* Assets.xcassets in Resources */,
 				C83C32E91DC549280051F2E5 /* Main.storyboard in Resources */,
+				C84EA52F1DC7E0DB001126B0 /* BullsEye.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84EA4351DC7DDAE001126B0 /* AboutViewController.swift in Sources */,
 				C83C32E61DC549280051F2E5 /* ViewController.swift in Sources */,
 				C83C32E41DC549280051F2E5 /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +309,7 @@
 				C83C32F41DC549280051F2E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
